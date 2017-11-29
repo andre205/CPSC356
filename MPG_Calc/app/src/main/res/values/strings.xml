@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MPGfrags</string>
+    <string name="mileage_hunt">Enter your car\'s gas mileage in mpg</string>
+    <string name="gasprice_hint">Enter the current gas price per gallon</string>
+    <string name="triplength_hint">Enter the length of your trip in miles</string>
+</resources>

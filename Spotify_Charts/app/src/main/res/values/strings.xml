@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ItemRankings</string>
+    <string name="title">title</string>
+    <string name="crime_title_hint">crime_title_hint</string>
+    <string name="solved">solved</string>
+</resources>

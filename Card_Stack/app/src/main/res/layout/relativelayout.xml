@@ -1,0 +1,81 @@
+<RelativeLayout
+    android:id="@+id/rl_screen"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onScreenClick"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_topleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_topleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="A"
+            />
+
+        <ImageView
+            android:id="@+id/iv_topleft"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_topleft"
+            android:src="@drawable/heart"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/heart"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_bottomright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_bottomright"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:rotation="180"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/heart"
+            />
+
+        <TextView
+            android:id="@+id/tv_bottomright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:rotation="180"
+            android:layout_below="@+id/iv_bottomright"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="A"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

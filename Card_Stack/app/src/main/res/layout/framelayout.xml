@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onScreenClick"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_topleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="50sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+        <ImageView
+            android:id="@+id/iv_topleft"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart"
+            android:layout_gravity="left"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="35dp"
+            />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/heart"
+        android:layout_gravity="center"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        >
+
+        <ImageView
+            android:id="@+id/iv_bottomright"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart"
+            android:rotation="180"
+            android:layout_gravity="right"
+            android:layout_marginRight="35dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_bottomright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="50sp"
+            android:rotation="180"
+            android:layout_gravity="right"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+    </FrameLayout>
+
+</FrameLayout>
